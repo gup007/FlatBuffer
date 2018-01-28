@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.gamesmantra.flatbuffer.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:text="FlatBuffer Stats"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:onClick="loadFromFlatBuffer"
+        android:text="Load From FlatBuffer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:onClick="loadFromJson"
+        android:text="Load From Json"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_Flat_buffer_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_json_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+</LinearLayout>
